@@ -1,0 +1,42 @@
+
+
+hr{
+    color: cornflowerblue;
+    border: 1px solid;
+    width: 90%;
+}
+
+button{
+    color: black
+}
+.imagen{
+    height: 670px;
+}
+
+a{
+    color: azure;
+}
+
+.containerCentral{
+    background-color: black;
+}
+
+
+
+.card{
+    background-color: black;
+    color: blanchedalmond;
+}
+.rectangulo{
+
+    width: 100%;
+  
+}
+
+#imagen2{
+    height: 47%;
+}
+
+#Footer{
+    height: 50px;
+}
