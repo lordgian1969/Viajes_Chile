@@ -22,34 +22,8 @@
 <body>
 
 
-  <header>
-    <nav class="navbar fixed-top navbar-expand-lg ">
-      <div class="container ">
-        <img src="assets/img/viajes.svg" style="width: 2em;" alt="">
-        <a class="navbar-brand" href="#">Viajes Chile</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-
-            <li class="nav-item">
-              <a class="nav-link" href="#Sobre-mi">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Experiencia">Quienes Somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Trabajos">Destinos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Contacto">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <header id="Inicio">
+   
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
@@ -72,10 +46,41 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+
+
+
+    <nav class="navbar fixed-top navbar-expand-lg ">
+      <div class="container ">
+        <img src="assets/img/viajes.svg" style="width: 2em;" alt="">
+        <a class="navbar-brand" href="#">Viajes Chile</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#Inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Quienes">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Destacados">Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contacto2">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 
 
-  <section class="containerCentral text-center d-block w-70">
+  <section id="Quienes" class="containerCentral text-center d-block w-70">
+    <br><br><br>
     <div class="d-none d-md-block">
       <h2>¿Quienes Somos?</h2>
       <hr>
@@ -83,7 +88,7 @@
 
         <div class="col-sm-12 card " style="width:350px">
           <div class="rectangulo mt-3 bg-primary">
-            <i class="fas fa-plane"></i>
+            <i data-toggle="tooltip" data-placement="left" title="Viajes en avion" class="fas fa-plane"></i>
           </div>
           <div class="card-body text-left  text-primary">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus est velit quo sequi. Asperiores, esse
@@ -109,13 +114,13 @@
           </div>
 
           <div class="rectangulo mt-3 bg-primary">
-            <i class="fas fa-mountain"></i>
+            <i data-toggle="tooltip" data-placement="top" title="Viaje a montañas" class="fas fa-mountain"></i>
           </div>
         </div>
 
         <div class="col-sm-12 card " style="width:350px">
           <div class="rectangulo mt-3 bg-primary">
-            <i class="fas fa-route"></i>
+            <i data-toggle="tooltip" data-placement="right" title="Viajes por Carretera" class="fas fa-route"></i>
           </div>
           <div class="card-body text-left  text-primary">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus est velit quo sequi. Asperiores, esse
@@ -130,13 +135,13 @@
 
       </div>
     </div>
-
+    <br><br>
     <!--   Seccion Destacados -->
-    <div>
-      <h2>Destacados</h2>
+    <div >
+      <h2 id="Destacados">Destacados</h2>
       <hr>
 
-      <div class="container">
+      <div id="Destacados2" class="container">
         <div class="card-deck">
           <div class="card text-left bg-primary text-light">
             <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
@@ -174,10 +179,10 @@
         </div>
       </div>
 
-
-      <div>
-        <br><br><br>
-        <h2>Contacto</h2>
+      <br>
+      <div id="Contacto2">
+        
+        <h2 >Contacto</h2>
         <hr class="bg-dark">
       </div>
 
@@ -191,50 +196,24 @@
       </section>
 
 
+<!-- Pie de Pagina -->
 
-
-   
-      <footer id="Footer" class="text-center d-block text-white py-2 bg-primary mt-5">
+       <footer id="Footer" class="text-center d-block text-white py-2 bg-primary mt-5">
         <div class="row container m-auto">
           <div class="col-12 col-sm-6">
             <h3 class="font-weight-bold">VIAJES CHILE</h3>
           </div>
           <div class="col-12 col-sm-6 mt-4 mt-sm-0 w-50">
-            <i class=" h4 fab fa-github-square fa-2x mx-2"></i>
-            <i class="h4 fab fa-linkedin fa-2x mx-2"></i>
-            <i class="fab fa-twitter fa-2x mx-2"></i>
-            <i class="fab fa-facebook fa-2x mx-2"></i>
+           <a href="https://github.com"><i class=" h4 fab fa-github-square fa-2x mx-2"></i></a>
+           <a href="https://cl.linkedin.com">  <i class="h4 fab fa-linkedin fa-2x mx-2"></i></a>
+           <a href=" https://twitter.com/?lang=es">   <i class="fab fa-twitter fa-2x mx-2"></i></a>
+           <a href="https://www.facebook.com">   <i class="fab fa-facebook fa-2x mx-2"></i></a>
           </div>
         </div>
+       
       </footer>
 
   </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -244,7 +223,7 @@
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
     crossorigin="anonymous"></script>
 
-  <script src="Assets/js/index.js"></script>
+  <script src="Assets/js/main.js"></script>
 </body>
 
 </html>

@@ -26,10 +26,14 @@ button{
 #Contacto{
     background-color: white;
     width: 70%;
-    height: 300px;
+    height: 400px;
+}
+
+#Destacados2{
+    height: 507px;
 }
 .imagen{
-    height: 670px;
+    height: 660px;
 }
 
 a{
@@ -59,3 +63,19 @@ a{
 #Footer{
     height: 50px;
 }
+
+.tooltip-inner {
+    background-color: #00cc00;
+    }
+    .tooltip.bs-tooltip-right .arrow:before {
+        border-right-color: #00cc00 !important;
+    }
+    .tooltip.bs-tooltip-left .arrow:before {
+        border-left-color: #00cc00 !important;
+    }
+    .tooltip.bs-tooltip-bottom .arrow:before {
+        border-bottom-color: #00cc00 !important;
+    }
+    .tooltip.bs-tooltip-top .arrow:before {
+        border-top-color: #00cc00 !important;
+    }
