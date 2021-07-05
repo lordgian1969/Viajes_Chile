@@ -1,4 +1,5 @@
 $(document).ready(function(){ 
+  alert("hola")
     // Add smooth scrolling to all links
     $(".nav-link").on('click', function(event) {
   
