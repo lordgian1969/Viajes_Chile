@@ -1,5 +1,4 @@
 $(document).ready(function(){ 
-  alert("hola")
     // Add smooth scrolling to all links
     $(".nav-link").on('click', function(event) {
   
@@ -23,3 +22,7 @@ $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip()
 
   $('[data-toggle="popover"]').popover()
+
+
+
+  
